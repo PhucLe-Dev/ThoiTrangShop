@@ -76,7 +76,7 @@ function TinTucHome() {
           )}
         </div>
         <div className="flex justify-center">
-          <button type="button" className="px-6 py-3 text-sm text-white bg-[#1e2939] border border-[#1e2939] hover:bg-[#fff] hover:text-[#1e2939]">Load more posts...</button>
+          <Link href="/tin-tuc" className="px-6 py-3 text-sm text-white cursor-pointer bg-[#1e2939] border border-[#1e2939] hover:bg-[#fff] hover:text-[#1e2939]">Đọc thêm</Link>
         </div>
       </div>
     </section>
