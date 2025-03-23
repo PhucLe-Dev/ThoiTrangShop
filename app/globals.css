@@ -1,2 +1,13 @@
 @import "tailwindcss";
-
+.clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Giới hạn 2 dòng */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 3em; /* Điều chỉnh dựa vào line-height */
+    line-height: 1.5em;
+    white-space: normal;
+    word-break: break-word;
+    font-size: 1rem;
+}

@@ -1,19 +1,15 @@
+import Link from "next/link";
+
 function Banner() {
     return (
-        <div className="p-6 py-12 dark:bg-violet-600 dark:text-gray-50">
-            <div className="container mx-auto">
-                <div className="flex flex-col lg:flex-row items-center justify-between">
-                    <h2 className="text-center text-6xl tracking-tighter font-bold">Up to
-                        <br className="sm:hidden" />50% Off
-                    </h2>
-                    <div className="space-x-2 text-center py-2 lg:py-0">
-                        <span>Plus free shipping! Use code:</span>
-                        <span className="font-bold text-lg">MAMBA</span>
-                    </div>
-                    <a href="#" rel="noreferrer noopener" className="px-5 mt-4 lg:mt-0 py-3 rounded-md border block dark:bg-gray-900 dark:text-gray-50 dark:border-gray-600">Shop Now</a>
-                </div>
+        <Link href="">
+            <div className="bg-[url(https://vn.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/New-Homepage/2025/central/collections/red/Women_Red_WW_HP_Push_250319_DI3.jpg?wid=1440)] 
+            // bg-cover bg-center h-[515px] cursor-pointer flex flex-col items-center justify-end">
+                <p className="text-white font-normal text-xl">Dành cho nữ</p>
+                <h1 className="text-white font-medium text-4xl my-5">Chương 2 của bộ siêu tập Louis vuitton X Murakami</h1>
+                <Link href="" className="text-white font-medium text-xl mb-10 underline hover:decoration-1">Khám phá thêm</Link>
             </div>
-        </div>
+        </Link>
     )
 }
 export default Banner;
